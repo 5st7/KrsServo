@@ -6,7 +6,7 @@ int main() {
     Serial pc(USBTX,USBRX);
     //TXをD1,RXをD0，サーボのIDを0に設定
     KrsServo servo(D1,D0,0);
-    
+    aaa    
     while(1) {
         //90度に角度を設定
         servo.setAngle(90);
